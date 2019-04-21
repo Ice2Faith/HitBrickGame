@@ -10,13 +10,13 @@ typedef struct
 	int blue;
 }RGBColor;
 RGBColor BrickC1, BrickC2, CircleC, BarC; //inner use
-int GX; //横向
-int GY; //纵向
+int GX; //Window width
+int GY; //window height
 int COLS;
 int LINES;
 int SleepTime = 0;
-#define MAXCOLS 256 //列数
-#define MAXLINES 256 //行数
+#define MAXCOLS 256 //脕脨脢媒
+#define MAXLINES 256 //脨脨脢媒
 int Brick[MAXLINES][MAXCOLS];
 int BriWid, BriHei; //brick info
 int CircleX, CircleY, CircleR;
